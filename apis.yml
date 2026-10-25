@@ -1,25 +1,72 @@
 aid: portofino-technologies
+
 name: Portofino Technologies
-description: 'Portofino Technologies is a company surfaced via the API Evangelist harvest backlog (source:
-  vc-portfolio; backed by coatue) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/67e55a8e5dcc396a562d7f11/69d256a2069cb97402485243_d45e042a416b173088b627e5e3812cd4_Portofino%20Home%20page%20OpenGraph.png
+
+description: 'Portofino Technologies provides digital asset market making services for exchanges, token projects, and investors. The company focuses on execution, resilience, and precision, offering liquidity solutions and trading infrastructure. Backed by top-tier venture capital firms, it aims to deliver high-performance, low-latency market making across the digital asset ecosystem.'
+
 url: https://raw.githubusercontent.com/api-evangelist/portofino-technologies/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- Digital Assets
+- Market Making
+- Liquidity
+- Venture-backed
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- coatue
+
 common:
+- type: Hosts
+  url: hosts/portofino-technologies-hosts.yml
+- type: Vendors
+  url: vendors/portofino-technologies-vendors.yml
+- type: PrivacyPolicy
+  url: https://www.portofino.tech/privacy-policy
+- type: Leadership
+  url: https://www.portofino.tech/team/dipak-shah
+- type: DomainSecurity
+  url: security/portofino-technologies-domain-security.yml
 - type: Website
   url: https://www.portofino.tech/
+
+apis: []
+
+x-backed-by:
+- coatue
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://www.portofino.tech/
+    status: 200
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

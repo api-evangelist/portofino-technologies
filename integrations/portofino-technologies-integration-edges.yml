@@ -1,0 +1,16 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/portofino-technologies/integrations
+- https://n8n.io/integrations/portofino-technologies/
+- https://composio.dev/toolkits/portofino-technologies
+- https://monid.ai/tools/portofino-technologies
+checked:
+- https://composio.dev/toolkits/portofino-technologies
+- https://monid.ai/tools/portofino-technologies
+- https://n8n.io/integrations/portofino-technologies/
+- https://zapier.com/apps/portofino-technologies/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
